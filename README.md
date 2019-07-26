@@ -1,7 +1,7 @@
 # Twitter Sentiment Analysis using Python
 ### This is a project that analyses tweets for their sentiments(positive and negative). The tweets are downloaded using the Twitter API. The Model used in this project is a support-vector-machine(SVM) with a linear kernel.
 
-Flow of the project:
+**Flow of the project:**
 * Downloading the training set
 * Creating the test set based on the hashtag provided by the user
 * Preprocessing all the tweets in test and training sets to remove unwanted portions like hashtags, urls, stopwords etc.
@@ -13,7 +13,7 @@ Flow of the project:
 * Getting the final results
 
 
-Description of python files:
+**Description of python files:**
 * clean.py:
   * This cleans the data of the raw test set and gives a processed data set that can be used to prepare the model. An additional task that one may need to do is download the raw test set from Sentiment140. The raw test set is not uploaded here due to its large size (~250 MB)
 
@@ -37,3 +37,5 @@ Description of python files:
  
 * gui.py:
   * This module has a function that is used by main2.py as its primary method for getting the results.
+  
+**----------------------------------------------------------------------------------------------------------------------------------**
