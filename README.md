@@ -13,3 +13,6 @@ Flow of the project:
 * Getting the final results
 
 
+Description of python files:
+* clean.py:
+  * This cleans the data of the raw test set and gives a processed data set that can be used to prepare the model. An additional task that one may need to do is download the raw test set from Sentiment140. The raw test set is not uploaded here due to its large size (~250 MB)
